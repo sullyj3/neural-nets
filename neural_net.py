@@ -44,10 +44,6 @@ def s_to_bool(s):
 class perceptron(object):
     def __init__(self, names, weights, bias):
 
-        # input dict should be:
-        #       key = input name/identifier
-        #       value = weight
-
         self.num_inputs = len(names)
         self.names = names
         self.weights = weights
